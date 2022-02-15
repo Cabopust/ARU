@@ -6,11 +6,16 @@
    You should have received a copy of the license along with this
    work. If not, see <https://creativecommons.org/licenses/by-sa/4.0/>.
 
+.. _useful-programs:
+
 ************************
 Полезные программы
 ************************
 
 Программы разного назначения, однако могут быть полезными.
+
+.. index:: useful-programs, stacer, garbage-removal
+.. _stacer:
 
 ===========
 Stacer
@@ -26,6 +31,9 @@ Stacer
   cd stacer                                      # Переход в stacer. 
   makepkg -sric                                  # Сборка и установка.
 
+.. index:: useful-programs, bleachbit, garbage-removal
+.. _bleachbit:
+
 ===============
 Bleachbit
 ===============
@@ -38,13 +46,16 @@ Bleachbit
 
 **Установка + дополнительные фильтры**::
 
-  sudo pacman S bleachbit
+  sudo pacman -S bleachbit
 
   # Дополнительные фильтры
 
   git clone https://aur.archlinux.org/cleanerml-git.git # Загрузка исходников.
   cd cleanerml-git                                      # Переход в cleanerm.
   makepkg -sric                                         # Сборка и установка.
+
+.. index:: useful-programs, mouse, settings
+.. _paper:
 
 ========
 Piper
@@ -62,6 +73,9 @@ Piper
    Полный список поддерживаемых устройств вы можете найти по ссылке:
 
    https://github.com/libratbag/libratbag/wiki/Devices
+
+.. index:: useful-programs, usb, security
+.. _pam-usb:
 
 ==========
 pam_usb
@@ -81,6 +95,8 @@ pam_usb
   cd pam_usb/arch_linux
   makepkg -sric
 
+.. index:: useful-programs, wine, prefixes, gaming
+.. _bottles:
 
 ========
 Bottles
